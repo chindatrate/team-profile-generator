@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/chindatrate/team-profile-generator/issues"
   },
-  "homepage": "https://github.com/chindatrate/team-profile-generator#readme"
+  "homepage": "https://github.com/chindatrate/team-profile-generator#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
 }
