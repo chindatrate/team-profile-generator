@@ -13,7 +13,7 @@ Develop a webpage that displays team's basic info and provides quick access to t
 Clone repository, install node js, run npm i from root directory to install required dependencies
 
 ## Screenshot
-![Alt text](dist/screenshot.png)
+![Alt text](/dist/screenshot.png)
 
 ## License
 MIT
