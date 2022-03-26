@@ -69,7 +69,7 @@ generateHTML = (data) => {
     // cards array
     pageArray = [];
 
-    for (let i = 0; i < DataTransfer.length; i++) {
+    for (let i = 0; i < data.length; i++) {
         const employee = data[i];
         const role = employee.getRole();
 
