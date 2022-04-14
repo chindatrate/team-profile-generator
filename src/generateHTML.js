@@ -7,7 +7,7 @@ const generateManager = function (manager) {
                             <span class="card-title">${manager.name}</span>
                             <h4>Manager</h4><i class="material-icons">business_center</i>
                         </div>
-                        <div class="card-body">
+                        <div class="card-body white">
                             <p class="id">ID: ${manager.id}</p>
                             <p class="email">Email: <a
                                     href="mailto:${manager.email}">${manager.email}</a>
@@ -28,7 +28,7 @@ const generateEngineer = function (engineer) {
                             <span class="card-title">${engineer.name}</span>
                             <h4>Engineer</h4><i class="material-icons">laptop_mac</i>
                         </div>
-                        <div class="card-body">
+                        <div class="card-body white">
                             <p class="id">ID: ${engineer.id}</p>
                             <p class="email">Email: <a
                                     href="mailto:${engineer.email}">${engineer.email}</a></p>
@@ -50,7 +50,7 @@ const generateIntern = function (intern) {
                             <span class="card-title">${intern.name}</span>
                             <h4>Intern</h4><i class="material-icons">school</i>
                         </div>
-                        <div class="card-body">
+                        <div class="card-body white">
                             <p class="id">ID: ${intern.id}</p>
                             <p class="email">Email: <a
                                     href="mailto:${intern.email}">${intern.email}</a>
@@ -119,13 +119,13 @@ const generateTeamPage = function (employeeCards) {
     <title>Team Profile</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/styles/styles.css">
 </head>
 
 <body>
     <header>
         <nav>
-            <div class="nav-wrapper">
+            <div class="nav-wrapper blue-grey darken-2">
                 <div class="brand-logo center">Team Profile</a>
                 </div>
         </nav>

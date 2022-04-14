@@ -199,14 +199,14 @@ const addEmployee = () => {
 
 // generate HTML page file using file system
 const writeFile = data => {
-    fs.writeFile('./dist/index.html', data, err => {
+    fs.writeFile('./output/index.html', data, err => {
         // if error
         if (err) {
             console.log(err);
             return;
             // when profile is created
         } else {
-            console.log("Your team prifile has been successfully created")
+            console.log("Your team profile has been successfully created")
         }
     })
 };
