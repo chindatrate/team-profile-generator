@@ -14,7 +14,7 @@ Clone repository, install node js, run npm i from root directory to install requ
 
 ## Screenshot
 ![Alt text](styles/image/screenshot.png)
-![Alt text](https://drive.google.com/file/d/1l_dG4DjmBLLzLCggl7YS9mISRedbVWVh/view)
+![Alt text](styles/image/vid.gif)
 
 ## License
 MIT
